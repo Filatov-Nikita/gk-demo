@@ -12,3 +12,15 @@ a {
 .link {
   text-decoration: underline;
 }
+
+.link-block {
+  display: block;
+}
+
+.space-y-md > * + * {
+  margin-top: 16px;
+}
+
+.space-y-xs > * + * {
+  margin-top: 4px;
+}

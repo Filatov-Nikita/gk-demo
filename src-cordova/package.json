@@ -14,6 +14,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-ios": "^6.2.0",
+    "cordova-plugin-inappbrowser": "^5.0.0",
     "cordova-plugin-splashscreen": "^6.0.0"
   },
   "cordova": {
@@ -21,7 +22,8 @@
       "ios"
     ],
     "plugins": {
-      "cordova-plugin-splashscreen": {}
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-inappbrowser": {}
     }
   }
 }

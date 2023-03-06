@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="wrapper column">
+    <div class="wrapper">
       <h2 class="text-h6">О компании</h2>
       <div class="row q-col-gutter-lg q-mb-md">
         <div class="col-6" v-for="item in about" :key="item.b1">
